@@ -1,0 +1,15 @@
+{
+  "repository": {
+    "default_branch": "main"
+  },
+  "tree": [
+    {"path": "README.md", "type": "blob"},
+    {"path": "src/app.py", "type": "blob"},
+    {"path": "tests/test_app.py", "type": "blob"}
+  ],
+  "files": {
+    "README.md": "# Demo repository\n\nA small fixture used by the offline recovery demonstration.\n",
+    "src/app.py": "def greet(name):\n    # TODO: validate the input\n    return f'Hello, {name}'\n",
+    "tests/test_app.py": "def test_greet():\n    assert True\n"
+  }
+}
